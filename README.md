@@ -58,7 +58,7 @@ The `configure_gunicorn.yml` playbook performs the following tasks:
    The playbook outputs the result of the `pip list` command, showing all installed Python packages in the virtual environment, confirming that Gunicorn is installed.
 
   
-![alt text](Images/image.png)
+![alt text](Images/image_.png)
 ![alt text](Images/image-1.png)
 
 
@@ -223,3 +223,15 @@ The `install_dependencies.yml` playbook performs the following tasks:
 ![alt text](Images/image-11.png)
 
 
+# Dockerfiles explained and composing them in cloud ubuntu environment with ansible to deploy web applicaiton:
+
+Client-side Dockerfile:
+![alt text](Images/image.png)
+
+Server-side Dockerfile:
+![alt text](Images/image_2.png)
+
+
+Web applicaiton:
+
+![alt text](Images/image_3.png)
