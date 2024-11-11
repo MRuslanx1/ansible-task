@@ -58,8 +58,8 @@ The `configure_gunicorn.yml` playbook performs the following tasks:
    The playbook outputs the result of the `pip list` command, showing all installed Python packages in the virtual environment, confirming that Gunicorn is installed.
 
   
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](Images/image.png)
+![alt text](Images/image-1.png)
 
 
 ### 2. `install_docker.yml`
@@ -90,11 +90,11 @@ The `install_docker.yml` playbook is designed to automate the installation of Do
 
 
 
-![alt text](image-2.png)
+![alt text](Images/image-2.png)
 
-![alt text](image-3.png)
+![alt text](Images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](Images/image-4.png)
 
 ### 3. `install_python.yml`
 
@@ -119,11 +119,11 @@ This playbook ensures that the remote servers, specified in the `dev_vms` group,
 
 ### Playbook Operation
 
-![alt text](image-5.png)
+![alt text](Images/image-5.png)
 
-![alt text](image-6.png)
+![alt text](Images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](Images/image-7.png)
 
 ### 4. `install_gitlab.yml`
 
@@ -152,9 +152,9 @@ The `install_gitlab.yml` playbook performs the following tasks:
 
 ### Playbook Breakdown
 
-![alt text](image-9.png)
+![alt text](/Images/image-9.png)
 
-![alt text](image-8.png)
+![alt text](/Images/image-8.png)
 
 
 # Playbook: Install GitLab Runner
@@ -182,7 +182,7 @@ The `install_gitlab.yml` playbook performs the following tasks:
 
 ### Playbook Breakdown
 
-![alt text](image-10.png)
+![alt text](Images/image-10.png)
 
 
 ### 5. `install_dependencies.yml`
@@ -218,8 +218,8 @@ The `install_dependencies.yml` playbook performs the following tasks:
 
 ### Playbook Breakdown
 
-![alt text](image-12.png)
+![alt text](Images/image-12.png)
 
-![alt text](image-11.png)
+![alt text](Images/image-11.png)
 
 
